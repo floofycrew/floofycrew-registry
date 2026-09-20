@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "source": "github:floofycrew/floofycrew-registry",
+  "generatedAt": "2026-09-20T12:22:06Z",
+  "mods": [
+    {
+      "id": "rimuru-branding",
+      "name": "Rimuru branding",
+      "description": "The Rimuru slime theme as a FloofyCrew mod: the Level-1 theme pack (colours, logo, favicon, bot name 'Great Sage') installed through the host's own theme seam, a first-frame boot part so the palette, favicon and logo paint before the dashboard hydrates (no launch flash, cold clients included), and an import-map patch that neutralises the dashboard's persisting theme reset. Unofficial fan theme; see README.md for artwork attribution.",
+      "authors": [
+        "liyent"
+      ],
+      "tags": [
+        "branding",
+        "first-frame",
+        "rimuru",
+        "theme"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "kirocrew": ">=0.7.0 <0.9.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {
+            "0.6.0": "tested",
+            "0.7.0rc5": "tested"
+          },
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/rimuru-branding-1.0.0/rimuru-branding-1.0.0.zip",
+              "sha256": "27ea3f4957de93a6dd86f34b07dfce64bc9d7b18258aca086f8524d8a831fd77",
+              "size": 60430,
+              "name": "rimuru-branding-1.0.0.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=0.0.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-09-20T12:22:05Z",
+          "tag": "rimuru-branding-1.0.0",
+          "kinds": [
+            "patch",
+            "spa",
+            "theme"
+          ]
+        }
+      ],
+      "license": "MIT",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    }
+  ],
+  "floofycrew": "1.0.0"
+}

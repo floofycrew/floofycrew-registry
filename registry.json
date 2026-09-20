@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "source": "github:floofycrew/floofycrew-registry",
+  "edition": "external",
+  "keyId": "31ddb18e6ffafef2",
+  "archiveUrlTemplate": "https://github.com/floofycrew/FloofyCrew/releases/download/{id}-{version}/{file}",
+  "hostRegistry": {
+    "repo": "https://github.com/floofycrew/floofycrew-registry",
+    "branch": "main"
+  },
+  "floofycrew": "https://github.com/floofycrew/FloofyCrew"
+}
