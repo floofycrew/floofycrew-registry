@@ -1,0 +1,13 @@
+{
+  "tag": "custom-themes-1.0.1",
+  "channel": "stable",
+  "publishedAt": "2026-09-22T16:24:12Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.1/custom-themes-1.0.1.zip",
+      "sha256": "36e1c5eed82571ae0f1777787cce31c57d58787a7ecc8a95c2e108def3a90f2a",
+      "size": 41967,
+      "name": "custom-themes-1.0.1.zip"
+    }
+  ]
+}

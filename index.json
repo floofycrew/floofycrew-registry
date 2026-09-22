@@ -1,20 +1,73 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-09-20T12:22:06Z",
+  "generatedAt": "2026-09-22T16:24:12Z",
   "mods": [
     {
-      "id": "rimuru-branding",
-      "name": "Rimuru branding",
-      "description": "The Rimuru slime theme as a FloofyCrew mod: the Level-1 theme pack (colours, logo, favicon, bot name 'Great Sage') installed through the host's own theme seam, a first-frame boot part so the palette, favicon and logo paint before the dashboard hydrates (no launch flash, cold clients included), and an import-map patch that neutralises the dashboard's persisting theme reset. Unofficial fan theme; see README.md for artwork attribution.",
+      "id": "custom-themes",
+      "name": "Custom themes",
+      "description": "A theme editor for KiroCrew inside the FloofyCrew App, and the layer theme mods build on. A theme is a host theme pack (palette, branding, fonts, overrides.css — installed through the host's own validator, listed in Settings → Display) plus a FloofyCrew layer of extra CSS that may restyle anything, scoped to the theme and applied by the mod on the first frame and at runtime. Start from the running host's own built-in themes (read from its stylesheet, decorations included), edit every palette token with a live preview, export/import a theme as one file, install it and switch to it. Carries the theme-reset guard every custom theme needs. Unofficial.",
       "authors": [
-        "liyent"
+        "Oscar Tseng"
       ],
       "tags": [
         "branding",
+        "editor",
         "first-frame",
-        "rimuru",
-        "theme"
+        "theme",
+        "ui"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.9.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {
+            "0.6.0": "expected"
+          },
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.1/custom-themes-1.0.1.zip",
+              "sha256": "36e1c5eed82571ae0f1777787cce31c57d58787a7ecc8a95c2e108def3a90f2a",
+              "size": 41967,
+              "name": "custom-themes-1.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-09-22T16:24:12Z",
+          "tag": "custom-themes-1.0.1",
+          "kinds": [
+            "patch",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
+        }
+      ],
+      "license": "MIT",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "settings-demo",
+      "name": "Settings demo",
+      "description": "The example of a mod with its own settings page inside the FloofyCrew App (Requirement 16.4): a text field and a toggle persisted through floofy.mod(id).config, and a button calling the mod's own backend route, which the python-hook part registers with ctx.routes and which echoes the stored config. Unofficial; the second first-party mod.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "example",
+        "settings",
+        "ui"
       ],
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
@@ -26,27 +79,25 @@
             "external"
           ],
           "compat": {
-            "0.6.0": "tested",
-            "0.7.0rc5": "tested"
+            "0.6.0": "expected"
           },
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/rimuru-branding-1.0.0/rimuru-branding-1.0.0.zip",
-              "sha256": "27ea3f4957de93a6dd86f34b07dfce64bc9d7b18258aca086f8524d8a831fd77",
-              "size": 60430,
-              "name": "rimuru-branding-1.0.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.0/settings-demo-1.0.0.zip",
+              "sha256": "62bd60b3bb238d988a86a141e575d22d3e28abe09997a84fa853f2c8a212d579",
+              "size": 7332,
+              "name": "settings-demo-1.0.0.zip"
             }
           ],
           "dependencies": {
-            "floofycrew": ">=0.0.0 <2.0.0"
+            "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-09-20T12:22:05Z",
-          "tag": "rimuru-branding-1.0.0",
+          "publishedAt": "2026-09-22T16:24:12Z",
+          "tag": "settings-demo-1.0.0",
           "kinds": [
-            "patch",
-            "spa",
-            "theme"
+            "python-hook",
+            "ui"
           ]
         }
       ],
@@ -57,5 +108,5 @@
       }
     }
   ],
-  "floofycrew": "1.0.0"
+  "floofycrew": "1.3.0"
 }

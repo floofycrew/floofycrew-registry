@@ -14,9 +14,17 @@ repository; a pull request here adds the record that names it.
 - An `id`/`name` that does not masquerade as the host or its vendor (the CI
   check normalises look-alikes; curators can clear a legitimate exception in
   `masquerade-allow.txt`).
-- The archive (`.zip` or `.tar.gz` of the mod directory, no symlinks, no `..`)
-  published under a **release tag equal to the version** (`1.2.0` or `v1.2.0`),
-  reachable over HTTPS. Attach it to a GitHub release of your repository; the URL is `https://github.com/<org>/<repo>/releases/download/<tag>/<file>`.
+- For an **archive record**: a **release tag equal to the version** on your
+  repository — `1.2.0`, `v1.2.0`, or `<id>-1.2.0` when the repository holds
+  several mods — and the archive (`.zip` or `.tar.gz` of the mod directory, no
+  symlinks, no `..`) published under that tag, reachable over HTTPS. Attach it to a GitHub release of your repository; the URL is `https://github.com/<org>/<repo>/releases/download/<tag>/<file>`.
+- For a **link record**: nothing to upload and nothing to tag — the record names
+  your repository (`ssh://` or `https://`; this registry's `registry.json`
+  `repoUrlPattern` pins the forge it accepts), the mod's directory in it and the
+  **commit** the version is pinned at; `registry_tools record` reads the mod on
+  your default branch (or `--ref`) and records that commit, the canonical-manifest
+  hash and every file. Bump `version` in `floofy.json` per release. This
+  registry's default record kind is **archive**.
 
 ## The pull request
 
@@ -26,10 +34,19 @@ repository; a pull request here adds the record that names it.
    ```
 2. Add `mods/<id>/<version>/floofy.json` — the manifest **exactly** as shipped in
    the archive (the CI compares them byte-for-byte after canonicalisation).
-3. Add `mods/<id>/<version>/release.json`:
+3. Add `mods/<id>/<version>/release.json` — an archive record:
    ```json
    {"tag": "<version or v<version>>", "channel": "stable", "publishedAt": "2026-09-19T08:00:00Z",
     "files": [{"url": "https://…/<id>-<version>.zip", "sha256": "<64 hex>", "size": 12345, "name": "<id>-<version>.zip"}]}
+   ```
+   or a link record, written for you by
+   `registry_tools record . <id> --repo <your repository URL> [--path <directory>] [--ref <branch>]`
+   (pinned at the commit it read; no tag):
+   ```json
+   {"channel": "stable", "publishedAt": "2026-09-19T08:00:00Z",
+    "link": {"repo": "<your repository URL>", "path": "<directory of the mod inside the repository, or omit>",
+             "commit": "<40 hex>", "manifestSha256": "<64 hex>"},
+    "files": [{"path": "…", "sha256": "…", "size": 0}]}
    ```
    For a pure App Kit app (a single `app` part) add `"app": {"name": "<the name in app.json>"}`
    when it differs from the mod id.
@@ -38,10 +55,12 @@ repository; a pull request here adds the record that names it.
    from the records, `compat.json` by the Forge).
 
 CI downloads the assets named in `release.json` and runs
-`registry_tools validate-submission <archive> --registry . --tag <tag>`:
-schema and `floofy validate`, hashes and size against the archive, licence,
-masquerade check, tag, record consistency. A curator reviews the mod's parts and
-declared network hosts (what the manager will disclose to users) and merges.
+`registry_tools validate-submission <archive> --registry . --tag <tag>` — or, for
+a link record, `registry_tools validate-submission --record <id>@<version> --registry .`,
+which fetches the pinned commit and compares manifest hash and files with the
+record: schema and `floofy validate`, hashes and size, licence, masquerade check,
+the release tag (archive records), record consistency. A curator reviews the mod's parts and declared network
+hosts (what the manager will disclose to users) and merges.
 
 ## Compatibility verdicts
 

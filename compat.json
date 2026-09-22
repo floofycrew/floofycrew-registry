@@ -2,61 +2,19 @@
   "schema": 1,
   "rows": [
     {
-      "channel": "insider",
-      "checkedAt": "2026-09-20T08:17:07Z",
-      "edition": "external",
-      "framework": {
-        "floofycrew": "0.0.0",
-        "loader": "ok",
-        "pythonAnchors": {
-          "matched": 16,
-          "missed": [],
-          "total": 16
-        },
-        "shimVersion": "0.0.0",
-        "spaFingerprints": {
-          "matched": 12,
-          "missed": [],
-          "total": 12
-        }
-      },
-      "hostVersion": "0.7.0rc5",
-      "mods": {
-        "rimuru-branding@1.0.0": {
-          "detail": "active after reload (200); parts ['inactive', 'active', 'inactive']",
-          "run": "forge://public-insider/0.7.0rc5/rows/public-insider-0.7.0rc5.json",
-          "verdict": "tested"
-        }
-      },
-      "run": "forge://public-insider/0.7.0rc5/rows/public-insider-0.7.0rc5.json"
-    },
-    {
       "edition": "external",
       "channel": "stable",
       "hostVersion": "0.6.0",
       "framework": {
-        "loader": "ok",
-        "spaFingerprints": {
-          "matched": 12,
-          "total": 12,
-          "missed": []
-        },
-        "pythonAnchors": {
-          "matched": 16,
-          "total": 16,
-          "missed": []
-        },
-        "shimVersion": null
+        "loader": "ok"
       },
       "mods": {
-        "rimuru-branding@1.0.0": {
-          "verdict": "tested",
-          "run": "forge://public-stable/0.6.0/rows/public-stable-0.6.0.json"
-        }
+        "custom-themes@1.0.1": "expected",
+        "settings-demo@1.0.0": "expected"
       },
-      "checkedAt": "2026-09-20T12:22:05Z"
+      "checkedAt": "2026-09-22T16:24:12Z"
     }
   ],
-  "generatedAt": "2026-09-20T12:22:05Z",
+  "generatedAt": "2026-09-22T16:24:12Z",
   "source": "github:floofycrew/floofycrew-registry"
 }
