@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "rimuru-branding",
+  "name": "Rimuru branding",
+  "version": "2.0.0",
+  "description": "The Rimuru slime theme as a FloofyCrew mod: the Level-1 theme pack (colours, logo, favicon, bot name 'Great Sage') installed through the host's own theme seam. Since 2.0.0 a pure theme pack: the first frame and the theme-reset guard come from the custom-themes mod it depends on, so no boot script and no patch of its own. Unofficial fan theme; see README.md for artwork attribution.",
+  "authors": [
+    "Oscar Tseng"
+  ],
+  "license": "MIT",
+  "tags": [
+    "theme",
+    "branding",
+    "rimuru"
+  ],
+  "kirocrew": {
+    "version": ">=0.7.0 <0.9.0",
+    "editions": [
+      "internal",
+      "external"
+    ],
+    "strict": false
+  },
+  "dependsOn": {
+    "floofycrew": ">=1.1.0 <2.0.0",
+    "custom-themes": {
+      "range": ">=1.0.0 <2.0.0",
+      "reason": "applies the first-frame sheet for every installed custom theme and the theme-reset guard; before 2.0.0 this mod shipped both itself"
+    }
+  },
+  "parts": [
+    {
+      "kind": "theme",
+      "side": "gateway",
+      "path": "theme/theme.json",
+      "description": "the Level-1 pack; the host renders its branding (logo, favicon, bot name) natively since 0.7.0, custom-themes paints its palette on the first frame"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "51a23bab0eddb654f0dc3f2b2c293e459fe98fa0f05f57a2563f7b4979a22916"
+    },
+    {
+      "path": "theme/branding/favicon.png",
+      "sha256": "ce6712da9e13986c89d32d7d2252bd0c8a9bada8f7f64e95a9bd5ccd746f4c36"
+    },
+    {
+      "path": "theme/branding/logo.png",
+      "sha256": "342d51534e4f63636b63615ff946ddfec678d7a6f992d0da27f2e54586bd4e59"
+    },
+    {
+      "path": "theme/branding/wordmark.svg",
+      "sha256": "9e12ac82c852615d68ded38b980b639d58a29ecdf282997e42176a98d0a893b7"
+    },
+    {
+      "path": "theme/readme.md",
+      "sha256": "4094818ca8e6c4e3108c5211cdf14abf07f8fb2a504eb68e84624b91939fe8b6"
+    },
+    {
+      "path": "theme/theme.json",
+      "sha256": "52688dc7b50eecec2d40462e5315a0b471c96575dd5221734d271bd7a3e874e1"
+    },
+    {
+      "path": "theme/variables.json",
+      "sha256": "b0c4d6c891b492fc895e4a6975c8d3b86ba65edbc91703ad38b4d32c44ae80d1"
+    },
+    {
+      "path": "PARITY.md",
+      "sha256": "7446b620f8061a3529c8845b415111fb98c0406b214861adeae84ae115995ef1"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "80e39cc2df99c96f5f61a44e4e1b54ffa85c45d1c2d12bff7313cc638e164454"
+    }
+  ]
+}

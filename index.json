@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-21T06:22:42Z",
+  "generatedAt": "2026-10-21T07:42:31Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -42,8 +42,65 @@
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "agent-backend-doctor-0.2.1",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
+        }
+      ],
+      "license": "MIT",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "agent-backend-router",
+      "name": "Agent Backend Router",
+      "description": "Spreads new chat sessions across KiroCrew's agent backends (kiro-cli v2, KAS, Claude Code, Codex, ...) instead of one static agent.acp_backend: round robin, adaptive (recent time-to-first-token, time-per-token, latency and throttles), fallback (one active backend, trips on errors) or random. The session's model is never changed: a backend is used only when it serves that very model, so Claude models route to kiro/KAS/Claude Code and GPT models to kiro/KAS/Codex. Kiro's Spec / Quick Spec / Bug Fix / Plan agents stay pinned to KAS. A live session keeps its backend until reset. Every session carries structured routing diagnostics (selected backend, model and provider, AWS profile, whether the doctor's isolated AWS config was applied, preflight verdict, retry count, redacted failure class); a Codex launch that fails with 'failed to load AWS credentials: the credential provider was not enabled' is classified as a launch-environment failure, the isolated config is rebuilt and the start is retried exactly once, while model, HTTP, throttle, timeout and stream-cleanup failures are never answered with a credential refresh. Offers other mods a route request for a session's next cold start and the list of backends that could take a session over on the same model (Model Retry Policy's backend failover uses both). Unofficial.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "backend",
+        "claude-code",
+        "codex",
+        "kas",
+        "load-balancing",
+        "model-routing",
+        "routing",
+        "throttling"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "0.3.2",
+          "kirocrew": ">=0.7.0 <0.9.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-router-0.3.2/agent-backend-router-0.3.2.zip",
+              "sha256": "318f944ea22901e5b2ee23d177045295228a103d99fb2d3b907108370785e67a",
+              "size": 82376,
+              "name": "agent-backend-router-0.3.2.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0",
+            "agent-backend-doctor": {
+              "range": ">=0.2.0 <1.0.0",
+              "reason": "finds the Claude Code / Codex / pi adapters the host's own search misses and clears its cached 'not found', so the router's probe sees every installed backend without a gateway restart; from 0.2.0 also keeps a Bedrock-backed Codex's AWS credential chain usable inside the sandbox (the launch preflight, the isolated config the router's one repair rebuilds, and the failure classifier)"
+            }
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-21T07:42:31Z",
+          "tag": "agent-backend-router-0.3.2",
           "kinds": [
             "python-hook",
             "ui"
@@ -94,7 +151,7 @@
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "agent-orchestrator-0.2.4",
           "kinds": [
             "python-hook",
@@ -125,37 +182,6 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "1.0.1",
-          "kirocrew": ">=0.7.0 <0.9.0",
-          "editions": [
-            "internal",
-            "external"
-          ],
-          "compat": {
-            "0.6.0": "expected"
-          },
-          "files": [
-            {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.1/custom-themes-1.0.1.zip",
-              "sha256": "36e1c5eed82571ae0f1777787cce31c57d58787a7ecc8a95c2e108def3a90f2a",
-              "size": 41967,
-              "name": "custom-themes-1.0.1.zip"
-            }
-          ],
-          "dependencies": {
-            "floofycrew": ">=1.1.0 <2.0.0"
-          },
-          "channel": "stable",
-          "publishedAt": "2026-09-22T16:24:12Z",
-          "tag": "custom-themes-1.0.1",
-          "kinds": [
-            "patch",
-            "python-hook",
-            "spa",
-            "ui"
-          ]
-        },
-        {
           "version": "1.0.2",
           "kirocrew": ">=0.7.0 <0.9.0",
           "editions": [
@@ -175,7 +201,7 @@
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "custom-themes-1.0.2",
           "kinds": [
             "patch",
@@ -228,7 +254,7 @@
             "floofycrew": ">=1.3.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "display-comfort-1.0.0",
           "kinds": [
             "spa",
@@ -278,12 +304,60 @@
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "kiro-spec-plan-0.1.0",
           "kinds": [
             "agent",
             "python-hook",
             "spa"
+          ]
+        }
+      ],
+      "license": "MIT",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "mochi-pet-zoom-fix",
+      "name": "Mochi pet zoom fix",
+      "description": "Stops the Mochi desktop pet from inheriting the dashboard's Zoom Level (TT P512647819): at any zoom other than 100% the pet overlay drew scaled and offset, strolled off-screen and could not be dragged. Two electron: patches give the pet overlay its own Chromium session partition (persist:mochi-pet) and pin its zoom to 1 after every load, in mochi/petOverlays.js and the older crew-companion/petOverlay.js inside the desktop shell's app.asar. Desktop bundles only; a gateway-only install skips it. Unofficial.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "accessibility",
+        "desktop",
+        "fix",
+        "mochi"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "kirocrew": ">=0.6.0 <0.9.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/mochi-pet-zoom-fix-1.0.0/mochi-pet-zoom-fix-1.0.0.zip",
+              "sha256": "6cd02ad5545ca981daaba3c1d65cfce5101a4767de2af2968a83c2b67367c7f2",
+              "size": 7786,
+              "name": "mochi-pet-zoom-fix-1.0.0.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.2.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-21T07:42:31Z",
+          "tag": "mochi-pet-zoom-fix-1.0.0",
+          "kinds": [
+            "patch"
           ]
         }
       ],
@@ -334,7 +408,7 @@
             }
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "model-retry-policy-0.2.0",
           "kinds": [
             "python-hook",
@@ -382,11 +456,62 @@
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "os-notify-bridge-1.0.0",
           "kinds": [
             "spa",
             "ui"
+          ]
+        }
+      ],
+      "license": "MIT",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "rimuru-branding",
+      "name": "Rimuru branding",
+      "description": "The Rimuru slime theme as a FloofyCrew mod: the Level-1 theme pack (colours, logo, favicon, bot name 'Great Sage') installed through the host's own theme seam. Since 2.0.0 a pure theme pack: the first frame and the theme-reset guard come from the custom-themes mod it depends on, so no boot script and no patch of its own. Unofficial fan theme; see README.md for artwork attribution.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "branding",
+        "rimuru",
+        "theme"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "2.0.0",
+          "kirocrew": ">=0.7.0 <0.9.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/rimuru-branding-2.0.0/rimuru-branding-2.0.0.zip",
+              "sha256": "af46e27a3953a9b4686658651222d3a60813f91a8fa7a373a652851f64a6111e",
+              "size": 57596,
+              "name": "rimuru-branding-2.0.0.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0",
+            "custom-themes": {
+              "range": ">=1.0.0 <2.0.0",
+              "reason": "applies the first-frame sheet for every installed custom theme and the theme-reset guard; before 2.0.0 this mod shipped both itself"
+            }
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-21T07:42:31Z",
+          "tag": "rimuru-branding-2.0.0",
+          "kinds": [
+            "theme"
           ]
         }
       ],
@@ -417,14 +542,12 @@
             "internal",
             "external"
           ],
-          "compat": {
-            "0.6.0": "expected"
-          },
+          "compat": {},
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.0/settings-demo-1.0.0.zip",
-              "sha256": "62bd60b3bb238d988a86a141e575d22d3e28abe09997a84fa853f2c8a212d579",
-              "size": 7332,
+              "sha256": "7e41c05c099046cf3974dc4baa148ff57b079a7b23fe73484bf29182a77cb016",
+              "size": 7037,
               "name": "settings-demo-1.0.0.zip"
             }
           ],
@@ -432,7 +555,7 @@
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-09-22T16:24:12Z",
+          "publishedAt": "2026-10-21T07:42:31Z",
           "tag": "settings-demo-1.0.0",
           "kinds": [
             "python-hook",

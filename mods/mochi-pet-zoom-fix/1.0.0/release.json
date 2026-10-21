@@ -1,0 +1,13 @@
+{
+  "tag": "mochi-pet-zoom-fix-1.0.0",
+  "channel": "stable",
+  "publishedAt": "2026-10-21T07:42:31Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/mochi-pet-zoom-fix-1.0.0/mochi-pet-zoom-fix-1.0.0.zip",
+      "sha256": "6cd02ad5545ca981daaba3c1d65cfce5101a4767de2af2968a83c2b67367c7f2",
+      "size": 7786,
+      "name": "mochi-pet-zoom-fix-1.0.0.zip"
+    }
+  ]
+}
