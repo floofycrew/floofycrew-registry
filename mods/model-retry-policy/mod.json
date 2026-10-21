@@ -1,0 +1,16 @@
+{
+  "repo": "https://github.com/floofycrew/FloofyCrew",
+  "tags": [
+    "backend-failover",
+    "backoff",
+    "fallback",
+    "models",
+    "retry",
+    "throttling"
+  ],
+  "links": {
+    "source": "https://github.com/floofycrew/FloofyCrew",
+    "docs": "https://github.com/floofycrew/FloofyCrew"
+  },
+  "contact": "floofycrew"
+}

@@ -1,0 +1,13 @@
+{
+  "tag": "kiro-spec-plan-0.1.0",
+  "channel": "stable",
+  "publishedAt": "2026-10-21T06:20:48Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.1.0/kiro-spec-plan-0.1.0.zip",
+      "sha256": "05a14ec91fe0016878219361fca7bfdbb07f76d7453730d22fd9e574f34a411c",
+      "size": 12592,
+      "name": "kiro-spec-plan-0.1.0.zip"
+    }
+  ]
+}
