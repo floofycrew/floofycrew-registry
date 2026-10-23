@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "id": "settings-demo",
+  "name": "Settings demo",
+  "version": "1.0.1",
+  "description": "The example of a mod with its own settings page inside the FloofyCrew App (Requirement 16.4): a text field and a toggle persisted through floofy.mod(id).config, and a button calling the mod's own backend route, which the python-hook part registers with ctx.routes and which echoes the stored config. Unofficial; the second first-party mod.",
+  "authors": [
+    "Oscar Tseng"
+  ],
+  "license": "Apache-2.0",
+  "tags": [
+    "example",
+    "settings",
+    "ui"
+  ],
+  "kirocrew": {
+    "version": ">=0.7.0 <0.11.0",
+    "editions": [
+      "internal",
+      "external"
+    ],
+    "strict": false
+  },
+  "dependsOn": {
+    "floofycrew": ">=1.1.0 <2.0.0"
+  },
+  "network": {
+    "hosts": [],
+    "credentials": false
+  },
+  "parts": [
+    {
+      "kind": "ui",
+      "side": "spa",
+      "path": "ui/",
+      "entry": "ui/page.mjs",
+      "title": "Settings demo",
+      "icon": "ui/icon.svg",
+      "description": "the settings page the App mounts under Mods: greeting + toggle persisted with floofy.mod(id).config, a button calling the mod's echo route"
+    },
+    {
+      "kind": "python-hook",
+      "side": "gateway",
+      "path": "hook/",
+      "module": "hook",
+      "early": false,
+      "description": "registers the echo route (GET/POST) with ctx.routes; answers with the stored config"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "9fdc59072af901a919819369aed08daddbd145b8a0f1310616bb6405d47bd36d"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "efbb38757df87b37a0ba908725830a90cded07b9842ce24e1635bb0763fa2a34"
+    },
+    {
+      "path": "hook/__init__.py",
+      "sha256": "a054921b9df63ec6cb52c93a693448cfb78a419c0aead3e84360006fb2cf392d"
+    },
+    {
+      "path": "ui/page.mjs",
+      "sha256": "91fa872f3a830bc3b3edd87106a8a737d9adc04ca6199716ffef0ed3e424741d"
+    },
+    {
+      "path": "ui/icon.svg",
+      "sha256": "bf595efa1d8188cce5c22893a917333545c83997d19be72356202758fc53ceb1"
+    }
+  ]
+}

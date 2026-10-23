@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-21T06:22:42Z",
+  "generatedAt": "2026-10-23T16:01:41Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -48,9 +48,36 @@
             "python-hook",
             "ui"
           ]
+        },
+        {
+          "version": "0.2.2",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.2/agent-backend-doctor-0.2.2.zip",
+              "sha256": "38837e4c98510585e202b976ce0cf819880277450d80e8b79a2cb499af474d86",
+              "size": 66208,
+              "name": "agent-backend-doctor-0.2.2.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "agent-backend-doctor-0.2.2",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -100,9 +127,36 @@
             "python-hook",
             "ui"
           ]
+        },
+        {
+          "version": "0.2.5",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.5/agent-orchestrator-0.2.5.zip",
+              "sha256": "17b481ff104d774ccb9dedbe5bf2a23cbbce255582ef7689949f9111e9fdc136",
+              "size": 89078,
+              "name": "agent-orchestrator-0.2.5.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "agent-orchestrator-0.2.5",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -183,9 +237,38 @@
             "spa",
             "ui"
           ]
+        },
+        {
+          "version": "1.0.3",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.3/custom-themes-1.0.3.zip",
+              "sha256": "90a8cbd4bb04c693da5f97c684ad4ae7b248fa5a65bba4de53850c83b7d19a21",
+              "size": 45085,
+              "name": "custom-themes-1.0.3.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "custom-themes-1.0.3",
+          "kinds": [
+            "patch",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -234,9 +317,36 @@
             "spa",
             "ui"
           ]
+        },
+        {
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.1/display-comfort-1.0.1.zip",
+              "sha256": "fa2b725b7994c2c80be39cfe7628e8ccba260e5c4a9d7c98d8ad25737edb7fec",
+              "size": 13895,
+              "name": "display-comfort-1.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.3.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "display-comfort-1.0.1",
+          "kinds": [
+            "spa",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -285,9 +395,37 @@
             "python-hook",
             "spa"
           ]
+        },
+        {
+          "version": "0.2.0",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.2.0/kiro-spec-plan-0.2.0.zip",
+              "sha256": "381974a9986bc6f8d98d71e492303b1633b62ea1004d5774a71f16a8a6054a8a",
+              "size": 21236,
+              "name": "kiro-spec-plan-0.2.0.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "kiro-spec-plan-0.2.0",
+          "kinds": [
+            "agent",
+            "python-hook",
+            "spa"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -340,9 +478,40 @@
             "python-hook",
             "ui"
           ]
+        },
+        {
+          "version": "0.2.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.1/model-retry-policy-0.2.1.zip",
+              "sha256": "607c136751d42635d03c05792be9ebd76e1489a32b7c5d75e80c529e5cfd7c36",
+              "size": 66907,
+              "name": "model-retry-policy-0.2.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0",
+            "agent-backend-doctor": {
+              "range": ">=0.2.1 <1.0.0",
+              "reason": "answers whether a failover target is usable right now (installed, its cached 'not found' cleared, a Bedrock-backed Codex's credential chain intact) before a throttled chat is moved there"
+            }
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "model-retry-policy-0.2.1",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -388,9 +557,36 @@
             "spa",
             "ui"
           ]
+        },
+        {
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.1/os-notify-bridge-1.0.1.zip",
+              "sha256": "a5b9d5b2a74d589fc19db27c001271f204bbbec01f71be00aede213bca35f5e2",
+              "size": 17094,
+              "name": "os-notify-bridge-1.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "os-notify-bridge-1.0.1",
+          "kinds": [
+            "spa",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -438,14 +634,41 @@
             "python-hook",
             "ui"
           ]
+        },
+        {
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.1/settings-demo-1.0.1.zip",
+              "sha256": "df067f853fc16eaefe574ecd38f7a9a409d8005e52d4728aeb2f087fa61c31ef",
+              "size": 10366,
+              "name": "settings-demo-1.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-23T16:00:10Z",
+          "tag": "settings-demo-1.0.1",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
       }
     }
   ],
-  "floofycrew": "1.3.8"
+  "floofycrew": "1.3.10"
 }
