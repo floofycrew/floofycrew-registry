@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-21T06:22:42Z",
+  "generatedAt": "2026-10-24T03:21:20Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -23,8 +23,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "0.2.1",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "0.2.2",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -32,25 +32,82 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.1/agent-backend-doctor-0.2.1.zip",
-              "sha256": "d9db66366b1cb063fccfb7c3c26ffcbd287634cadbcb736d656e8c3f9fd76598",
-              "size": 62888,
-              "name": "agent-backend-doctor-0.2.1.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.2/agent-backend-doctor-0.2.2.zip",
+              "sha256": "38837e4c98510585e202b976ce0cf819880277450d80e8b79a2cb499af474d86",
+              "size": 66208,
+              "name": "agent-backend-doctor-0.2.2.zip"
             }
           ],
           "dependencies": {
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "agent-backend-doctor-0.2.1",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "agent-backend-doctor-0.2.2",
           "kinds": [
             "python-hook",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "agent-backend-router",
+      "name": "Agent Backend Router",
+      "description": "Spreads new chat sessions across KiroCrew's agent backends (kiro-cli v2, KAS, Claude Code, Codex, ...) instead of one static agent.acp_backend: round robin, adaptive (recent time-to-first-token, time-per-token, latency and throttles), fallback (one active backend, trips on errors) or random. The session's model is never changed: a backend is used only when it serves that very model, so Claude models route to kiro/KAS/Claude Code and GPT models to kiro/KAS/Codex. Kiro's Spec / Quick Spec / Bug Fix / Plan agents stay pinned to KAS. A live session keeps its backend until reset. Every session carries structured routing diagnostics (selected backend, model and provider, AWS profile, whether the doctor's isolated AWS config was applied, preflight verdict, retry count, redacted failure class); a Codex launch that fails with 'failed to load AWS credentials: the credential provider was not enabled' is classified as a launch-environment failure, the isolated config is rebuilt and the start is retried exactly once, while model, HTTP, throttle, timeout and stream-cleanup failures are never answered with a credential refresh. Offers other mods a route request for a session's next cold start and the list of backends that could take a session over on the same model (Model Retry Policy's backend failover uses both). Unofficial.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "backend",
+        "claude-code",
+        "codex",
+        "kas",
+        "load-balancing",
+        "model-routing",
+        "routing",
+        "throttling"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "0.3.3",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-router-0.3.3/agent-backend-router-0.3.3.zip",
+              "sha256": "b19a8b333917079ebe9f3db7a97aa31e517c4c8ae3756f3123f12cbcf698b73b",
+              "size": 85698,
+              "name": "agent-backend-router-0.3.3.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0",
+            "agent-backend-doctor": {
+              "range": ">=0.2.0 <1.0.0",
+              "reason": "finds the Claude Code / Codex / pi adapters the host's own search misses and clears its cached 'not found', so the router's probe sees every installed backend without a gateway restart; from 0.2.0 also keeps a Bedrock-backed Codex's AWS credential chain usable inside the sandbox (the launch preflight, the isolated config the router's one repair rebuilds, and the failure classifier)"
+            }
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "agent-backend-router-0.3.3",
+          "kinds": [
+            "python-hook",
+            "ui"
+          ]
+        }
+      ],
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -75,8 +132,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "0.2.4",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "0.2.5",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -84,25 +141,25 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.4/agent-orchestrator-0.2.4.zip",
-              "sha256": "5b0de49f885dbcdf12184e2cfe70600592be009fe9c54164090fe30da079c2f8",
-              "size": 85758,
-              "name": "agent-orchestrator-0.2.4.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.5/agent-orchestrator-0.2.5.zip",
+              "sha256": "17b481ff104d774ccb9dedbe5bf2a23cbbce255582ef7689949f9111e9fdc136",
+              "size": 89078,
+              "name": "agent-orchestrator-0.2.5.zip"
             }
           ],
           "dependencies": {
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "agent-orchestrator-0.2.4",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "agent-orchestrator-0.2.5",
           "kinds": [
             "python-hook",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -125,39 +182,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "1.0.1",
-          "kirocrew": ">=0.7.0 <0.9.0",
-          "editions": [
-            "internal",
-            "external"
-          ],
-          "compat": {
-            "0.6.0": "expected"
-          },
-          "files": [
-            {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.1/custom-themes-1.0.1.zip",
-              "sha256": "36e1c5eed82571ae0f1777787cce31c57d58787a7ecc8a95c2e108def3a90f2a",
-              "size": 41967,
-              "name": "custom-themes-1.0.1.zip"
-            }
-          ],
-          "dependencies": {
-            "floofycrew": ">=1.1.0 <2.0.0"
-          },
-          "channel": "stable",
-          "publishedAt": "2026-09-22T16:24:12Z",
-          "tag": "custom-themes-1.0.1",
-          "kinds": [
-            "patch",
-            "python-hook",
-            "spa",
-            "ui"
-          ]
-        },
-        {
-          "version": "1.0.2",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "1.0.3",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -165,18 +191,18 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.2/custom-themes-1.0.2.zip",
-              "sha256": "03b463e3c0785ec31d29f3731b2b03ea4592250dd0d939bdfbc072e097f47983",
-              "size": 41754,
-              "name": "custom-themes-1.0.2.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.3/custom-themes-1.0.3.zip",
+              "sha256": "90a8cbd4bb04c693da5f97c684ad4ae7b248fa5a65bba4de53850c83b7d19a21",
+              "size": 45085,
+              "name": "custom-themes-1.0.3.zip"
             }
           ],
           "dependencies": {
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "custom-themes-1.0.2",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "custom-themes-1.0.3",
           "kinds": [
             "patch",
             "python-hook",
@@ -185,7 +211,7 @@
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -209,8 +235,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "1.0.0",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -218,25 +244,25 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.0/display-comfort-1.0.0.zip",
-              "sha256": "278e796f9a4c81b1d517fa89c970fef05a13213729de242aa083603319d3f255",
-              "size": 10572,
-              "name": "display-comfort-1.0.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.1/display-comfort-1.0.1.zip",
+              "sha256": "fa2b725b7994c2c80be39cfe7628e8ccba260e5c4a9d7c98d8ad25737edb7fec",
+              "size": 13895,
+              "name": "display-comfort-1.0.1.zip"
             }
           ],
           "dependencies": {
             "floofycrew": ">=1.3.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "display-comfort-1.0.0",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "display-comfort-1.0.1",
           "kinds": [
             "spa",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -259,8 +285,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "0.1.0",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "0.1.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -268,18 +294,18 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.1.0/kiro-spec-plan-0.1.0.zip",
-              "sha256": "05a14ec91fe0016878219361fca7bfdbb07f76d7453730d22fd9e574f34a411c",
-              "size": 12592,
-              "name": "kiro-spec-plan-0.1.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.1.1/kiro-spec-plan-0.1.1.zip",
+              "sha256": "ca04eac2f7a18789c57c23acd43e87d129db751fb7c342f854ec971d12da6157",
+              "size": 15913,
+              "name": "kiro-spec-plan-0.1.1.zip"
             }
           ],
           "dependencies": {
             "floofycrew": "^1.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "kiro-spec-plan-0.1.0",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "kiro-spec-plan-0.1.1",
           "kinds": [
             "agent",
             "python-hook",
@@ -287,7 +313,55 @@
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "mochi-pet-zoom-fix",
+      "name": "Mochi pet zoom fix",
+      "description": "Stops the Mochi desktop pet from inheriting the dashboard's Zoom Level (TT P512647819): at any zoom other than 100% the pet overlay drew scaled and offset, strolled off-screen and could not be dragged. Two electron: patches give the pet overlay its own Chromium session partition (persist:mochi-pet) and pin its zoom to 1 after every load, in mochi/petOverlays.js and the older crew-companion/petOverlay.js inside the desktop shell's app.asar. Desktop bundles only; a gateway-only install skips it. Unofficial.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "accessibility",
+        "desktop",
+        "fix",
+        "mochi"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "kirocrew": ">=0.6.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/mochi-pet-zoom-fix-1.0.1/mochi-pet-zoom-fix-1.0.1.zip",
+              "sha256": "9258684d6104fd14652ccaa6b60f2c45c61b74be1cc920fb29dc939ea4cbc2b1",
+              "size": 10813,
+              "name": "mochi-pet-zoom-fix-1.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.2.0 <2.0.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "mochi-pet-zoom-fix-1.0.1",
+          "kinds": [
+            "patch"
+          ]
+        }
+      ],
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -311,8 +385,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "0.2.0",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "0.2.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -320,10 +394,10 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.0/model-retry-policy-0.2.0.zip",
-              "sha256": "ba9836100ae3872714428d0093e27b82e724dbb3dde77bbeed660653e636f2e2",
-              "size": 63578,
-              "name": "model-retry-policy-0.2.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.1/model-retry-policy-0.2.1.zip",
+              "sha256": "607c136751d42635d03c05792be9ebd76e1489a32b7c5d75e80c529e5cfd7c36",
+              "size": 66907,
+              "name": "model-retry-policy-0.2.1.zip"
             }
           ],
           "dependencies": {
@@ -334,15 +408,15 @@
             }
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "model-retry-policy-0.2.0",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "model-retry-policy-0.2.1",
           "kinds": [
             "python-hook",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -363,8 +437,8 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "1.0.0",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
@@ -372,25 +446,76 @@
           "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.0/os-notify-bridge-1.0.0.zip",
-              "sha256": "ebf0a8941be06f8ff099a9ae917d60098008cb94eca985ccb72c441574cf3cdb",
-              "size": 13773,
-              "name": "os-notify-bridge-1.0.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.1/os-notify-bridge-1.0.1.zip",
+              "sha256": "a5b9d5b2a74d589fc19db27c001271f204bbbec01f71be00aede213bca35f5e2",
+              "size": 17094,
+              "name": "os-notify-bridge-1.0.1.zip"
             }
           ],
           "dependencies": {
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-10-21T06:20:48Z",
-          "tag": "os-notify-bridge-1.0.0",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "os-notify-bridge-1.0.1",
           "kinds": [
             "spa",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "rimuru-branding",
+      "name": "Rimuru branding",
+      "description": "The Rimuru slime theme as a FloofyCrew mod: the Level-1 theme pack (colours, logo, favicon, bot name 'Great Sage') installed through the host's own theme seam. Since 2.0.0 a pure theme pack: the first frame and the theme-reset guard come from the custom-themes mod it depends on, so no boot script and no patch of its own. Unofficial fan theme; see README.md for artwork attribution.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "branding",
+        "rimuru",
+        "theme"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/rimuru-branding-2.0.1/rimuru-branding-2.0.1.zip",
+              "sha256": "3ceb6f7eb2fa6f6ea5a62e8d3e59eda66797fc1ce7080fc99e46f661ba23fca2",
+              "size": 60635,
+              "name": "rimuru-branding-2.0.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": ">=1.1.0 <2.0.0",
+            "custom-themes": {
+              "range": ">=1.0.0 <2.0.0",
+              "reason": "applies the first-frame sheet for every installed custom theme and the theme-reset guard; before 2.0.0 this mod shipped both itself"
+            }
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "rimuru-branding-2.0.1",
+          "kinds": [
+            "theme"
+          ]
+        }
+      ],
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
@@ -411,41 +536,39 @@
       "repo": "https://github.com/floofycrew/FloofyCrew",
       "versions": [
         {
-          "version": "1.0.0",
-          "kirocrew": ">=0.7.0 <0.9.0",
+          "version": "1.0.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
           "editions": [
             "internal",
             "external"
           ],
-          "compat": {
-            "0.6.0": "expected"
-          },
+          "compat": {},
           "files": [
             {
-              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.0/settings-demo-1.0.0.zip",
-              "sha256": "62bd60b3bb238d988a86a141e575d22d3e28abe09997a84fa853f2c8a212d579",
-              "size": 7332,
-              "name": "settings-demo-1.0.0.zip"
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.1/settings-demo-1.0.1.zip",
+              "sha256": "df067f853fc16eaefe574ecd38f7a9a409d8005e52d4728aeb2f087fa61c31ef",
+              "size": 10366,
+              "name": "settings-demo-1.0.1.zip"
             }
           ],
           "dependencies": {
             "floofycrew": ">=1.1.0 <2.0.0"
           },
           "channel": "stable",
-          "publishedAt": "2026-09-22T16:24:12Z",
-          "tag": "settings-demo-1.0.0",
+          "publishedAt": "2026-10-24T03:21:20Z",
+          "tag": "settings-demo-1.0.1",
           "kinds": [
             "python-hook",
             "ui"
           ]
         }
       ],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
       }
     }
   ],
-  "floofycrew": "1.3.8"
+  "floofycrew": "1.3.10"
 }

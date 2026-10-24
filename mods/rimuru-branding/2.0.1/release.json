@@ -1,0 +1,13 @@
+{
+  "tag": "rimuru-branding-2.0.1",
+  "channel": "stable",
+  "publishedAt": "2026-10-24T03:21:20Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/rimuru-branding-2.0.1/rimuru-branding-2.0.1.zip",
+      "sha256": "3ceb6f7eb2fa6f6ea5a62e8d3e59eda66797fc1ce7080fc99e46f661ba23fca2",
+      "size": 60635,
+      "name": "rimuru-branding-2.0.1.zip"
+    }
+  ]
+}
