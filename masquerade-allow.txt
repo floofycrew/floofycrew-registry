@@ -2,4 +2,11 @@
 # The check (registry_tools validate-submission) flags an id or display name that
 # reads as the host's or its vendor's name after homoglyph normalisation. List an
 # id here only after reviewing that the mod is honest about what it is.
+
+# kirocrew-ide: first-party "KiroCrew IDE" (floofycrew) — embeds openvscode-server
+# into the KiroCrew dashboard; named for what it hosts, not passing as the host.
+kirocrew-ide
+
+# kiro-spec-plan: first-party "Kiro Spec & Plan" (floofycrew) — adds Kiro's bundled
+# mode agents (Spec, Quick Spec, Bug Fix, Plan). Named for the modes it adds.
 kiro-spec-plan

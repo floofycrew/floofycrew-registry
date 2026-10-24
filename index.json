@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-23T16:01:41Z",
+  "generatedAt": "2026-10-24T08:47:16Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -426,6 +426,57 @@
         }
       ],
       "license": "Apache-2.0",
+      "links": {
+        "source": "https://github.com/floofycrew/FloofyCrew",
+        "docs": "https://github.com/floofycrew/FloofyCrew"
+      }
+    },
+    {
+      "id": "kirocrew-ide",
+      "name": "KiroCrew IDE",
+      "description": "Use KiroCrew as your main IDE: a VS Code web engine (openvscode-server) runs as a loopback sidecar of the gateway and the full workbench is served same-origin inside the KiroCrew IDE App, with KiroCrew inside the IDE - chat with any crew agent, durable sessions that survive a dropped connection, tool approvals from the editor, and the Kiro spec workflow over .kiro/specs. Downloads the MIT engine from GitHub releases on your confirmation (the only network use). Unofficial.",
+      "authors": [
+        "Oscar Tseng"
+      ],
+      "tags": [
+        "editor",
+        "ide",
+        "productivity",
+        "vscode"
+      ],
+      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "versions": [
+        {
+          "version": "0.23.3",
+          "kirocrew": ">=0.7.0 <0.10.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.23.3/kirocrew-ide-0.23.3.zip",
+              "sha256": "63db74b90ee242699805e39f2fd324bece95ff41cc851e7ce79755481dc4e484",
+              "size": 778708,
+              "name": "kirocrew-ide-0.23.3.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.2"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-24T08:45:40Z",
+          "tag": "kirocrew-ide-0.23.3",
+          "kinds": [
+            "app",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
+        }
+      ],
+      "license": "MIT",
       "links": {
         "source": "https://github.com/floofycrew/FloofyCrew",
         "docs": "https://github.com/floofycrew/FloofyCrew"
