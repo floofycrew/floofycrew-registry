@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-24T14:16:15Z",
+  "generatedAt": "2026-10-24T15:00:15Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -423,6 +423,34 @@
             "python-hook",
             "spa"
           ]
+        },
+        {
+          "version": "0.2.1",
+          "kirocrew": ">=0.7.0 <0.11.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.2.1/kiro-spec-plan-0.2.1.zip",
+              "sha256": "764f5e9da857fb749fed59a050024d8f2e6597e9e4058b980233af04d8d17349",
+              "size": 25339,
+              "name": "kiro-spec-plan-0.2.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.0"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-10-24T14:59:09Z",
+          "tag": "kiro-spec-plan-0.2.1",
+          "kinds": [
+            "agent",
+            "python-hook",
+            "spa"
+          ]
         }
       ],
       "license": "Apache-2.0",
@@ -750,5 +778,5 @@
       }
     }
   ],
-  "floofycrew": "1.3.10"
+  "floofycrew": "1.3.11"
 }
