@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "mochi-pet-zoom-fix",
+  "name": "Mochi pet zoom fix",
+  "version": "1.0.1",
+  "description": "Stops the Mochi desktop pet from inheriting the dashboard's Zoom Level (TT P512647819): at any zoom other than 100% the pet overlay drew scaled and offset, strolled off-screen and could not be dragged. Two electron: patches give the pet overlay its own Chromium session partition (persist:mochi-pet) and pin its zoom to 1 after every load, in mochi/petOverlays.js and the older crew-companion/petOverlay.js inside the desktop shell's app.asar. Desktop bundles only; a gateway-only install skips it. Unofficial.",
+  "authors": [
+    "Oscar Tseng"
+  ],
+  "license": "Apache-2.0",
+  "links": {
+    "issue": "https://t.corp.amazon.com/P512647819"
+  },
+  "tags": [
+    "mochi",
+    "desktop",
+    "accessibility",
+    "fix"
+  ],
+  "kirocrew": {
+    "version": ">=0.6.0 <0.11.0",
+    "editions": [
+      "internal",
+      "external"
+    ],
+    "strict": false
+  },
+  "dependsOn": {
+    "floofycrew": ">=1.2.0 <2.0.0"
+  },
+  "network": {
+    "hosts": [],
+    "credentials": false
+  },
+  "parts": [
+    {
+      "kind": "patch",
+      "side": "electron",
+      "path": "patches/mochi-pet-overlay.json",
+      "description": "electron:mochi/petOverlays.js — partition + zoomFactor on the pet overlay's webPreferences, setZoomFactor(1) after load"
+    },
+    {
+      "kind": "patch",
+      "side": "electron",
+      "path": "patches/companion-pet-overlay.json",
+      "description": "electron:crew-companion/petOverlay.js — the same two hunks for the older companion overlay; NotApplicable when the member is gone"
+    }
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "efbb38757df87b37a0ba908725830a90cded07b9842ce24e1635bb0763fa2a34"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3f00af244a5994f52ce80f5282e42f0bcd51da861b9e3cad52686a7ab3c6d8b7"
+    },
+    {
+      "path": "patches/companion-pet-overlay.json",
+      "sha256": "c9a878bfd3d67d47a82936c0f3810863ec54544f6acd96605e99b5b800345f9f"
+    },
+    {
+      "path": "patches/mochi-pet-overlay.json",
+      "sha256": "793930c06cfe1bfd4b9382e6970745f0f6c9dcd03d14d83953b7206eb6cb30fe"
+    },
+    {
+      "path": "tests/smoke_test.py",
+      "sha256": "3ff49c4990f80eeedb0848e070f1a8a23766a2b7e2e31f7ee2c5e843977ce511"
+    }
+  ]
+}
