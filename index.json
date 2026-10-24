@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-24T08:47:16Z",
+  "generatedAt": "2026-10-24T09:02:59Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -444,7 +444,7 @@
         "productivity",
         "vscode"
       ],
-      "repo": "https://github.com/floofycrew/FloofyCrew",
+      "repo": "https://github.com/floofycrew/kirocrew-ide",
       "versions": [
         {
           "version": "0.23.3",
@@ -478,8 +478,8 @@
       ],
       "license": "MIT",
       "links": {
-        "source": "https://github.com/floofycrew/FloofyCrew",
-        "docs": "https://github.com/floofycrew/FloofyCrew"
+        "source": "https://github.com/floofycrew/kirocrew-ide",
+        "docs": "https://github.com/floofycrew/kirocrew-ide#readme"
       }
     },
     {

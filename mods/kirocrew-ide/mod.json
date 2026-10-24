@@ -1,5 +1,5 @@
 {
-  "repo": "https://github.com/floofycrew/FloofyCrew",
+  "repo": "https://github.com/floofycrew/kirocrew-ide",
   "tags": [
     "editor",
     "ide",
@@ -7,8 +7,8 @@
     "vscode"
   ],
   "links": {
-    "source": "https://github.com/floofycrew/FloofyCrew",
-    "docs": "https://github.com/floofycrew/FloofyCrew"
+    "source": "https://github.com/floofycrew/kirocrew-ide",
+    "docs": "https://github.com/floofycrew/kirocrew-ide#readme"
   },
   "contact": "floofycrew"
 }
