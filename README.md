@@ -45,7 +45,7 @@ Mod archives are **not** in this repository: they are release assets of the mod'
 | `custom-themes` — Custom themes | 1.0.3 | archive | patch, python-hook, spa, ui | `floofycrew` | 1.0.1 on 0.6.0: expected |
 | `display-comfort` — Display comfort | 1.0.1 | archive | spa, ui | `floofycrew` | no matrix cell yet |
 | `kiro-spec-plan` — Kiro Spec & Plan | 0.2.0 | archive | agent, python-hook, spa | `floofycrew` | no matrix cell yet |
-| `kirocrew-ide` — KiroCrew IDE | 0.23.3 | archive | app, python-hook, spa, ui | `floofycrew` | no matrix cell yet |
+| `kirocrew-ide` — KiroCrew IDE | 0.25.0 | archive | app, python-hook, spa, ui | `floofycrew` | no matrix cell yet |
 | `model-retry-policy` — Model Retry Policy | 0.2.1 | archive | python-hook, ui | `floofycrew` | no matrix cell yet |
 | `os-notify-bridge` — OS notification bridge | 1.0.1 | archive | spa, ui | `floofycrew` | no matrix cell yet |
 | `settings-demo` — Settings demo | 1.0.1 | archive | python-hook, ui | `floofycrew` | 1.0.0 on 0.6.0: expected |
