@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-10-24T15:00:15Z",
+  "generatedAt": "2026-11-03T14:11:06Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -29,7 +29,10 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.1/agent-backend-doctor-0.2.1.zip",
@@ -56,7 +59,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.2/agent-backend-doctor-0.2.2.zip",
@@ -108,7 +126,10 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.4/agent-orchestrator-0.2.4.zip",
@@ -135,7 +156,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.5/agent-orchestrator-0.2.5.zip",
@@ -186,7 +222,25 @@
             "external"
           ],
           "compat": {
-            "0.6.0": "expected"
+            "0.10.0.dev20261012014346": "tested",
+            "0.10.0.dev20261012201303": "tested",
+            "0.10.0.dev20261014061000": "tested",
+            "0.10.0.dev20261015061203": "tested",
+            "0.10.0rc4": "tested",
+            "0.11.0.dev20261019061302": "tested",
+            "0.7.0": "tested",
+            "0.7.0rc6": "tested",
+            "0.7.0rc7": "tested",
+            "0.7.0rc8": "tested",
+            "0.7.0rc9": "tested",
+            "0.7.1": "tested",
+            "0.7.2": "tested",
+            "0.8.0.dev20260922061137": "tested",
+            "0.8.0.dev20260924061032": "tested",
+            "0.9.0": "tested",
+            "0.9.0.dev20261005061801": "tested",
+            "0.9.0.dev20261007060958": "tested",
+            "0.9.0.dev20261009061050": "tested"
           },
           "files": [
             {
@@ -216,7 +270,18 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested",
+            "0.8.0.dev20260928053132": "tested",
+            "0.8.0rc1": "tested",
+            "0.8.0rc10": "tested",
+            "0.8.0rc2": "tested",
+            "0.8.0rc3": "tested",
+            "0.8.0rc4": "tested",
+            "0.9.0.dev20260929061324": "tested",
+            "0.9.0.dev20260930061058": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.2/custom-themes-1.0.2.zip",
@@ -245,7 +310,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.3/custom-themes-1.0.3.zip",
@@ -298,7 +378,34 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0.dev20261012014346": "tested",
+            "0.10.0.dev20261012201303": "tested",
+            "0.10.0.dev20261014061000": "tested",
+            "0.10.0.dev20261015061203": "tested",
+            "0.10.0rc4": "tested",
+            "0.11.0.dev20261019061302": "tested",
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested",
+            "0.7.0": "tested",
+            "0.7.0rc8": "tested",
+            "0.7.0rc9": "tested",
+            "0.7.1": "tested",
+            "0.7.2": "tested",
+            "0.8.0.dev20260924061032": "tested",
+            "0.8.0.dev20260928053132": "tested",
+            "0.8.0rc1": "tested",
+            "0.8.0rc10": "tested",
+            "0.8.0rc2": "tested",
+            "0.8.0rc3": "tested",
+            "0.8.0rc4": "tested",
+            "0.9.0": "tested",
+            "0.9.0.dev20260929061324": "tested",
+            "0.9.0.dev20260930061058": "tested",
+            "0.9.0.dev20261005061801": "tested",
+            "0.9.0.dev20261007060958": "tested",
+            "0.9.0.dev20261009061050": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.0/display-comfort-1.0.0.zip",
@@ -325,7 +432,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.1/display-comfort-1.0.1.zip",
@@ -375,7 +497,10 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kiro-spec-plan-0.1.0/kiro-spec-plan-0.1.0.zip",
@@ -531,6 +656,35 @@
             "spa",
             "ui"
           ]
+        },
+        {
+          "version": "0.27.0",
+          "kirocrew": ">=0.7.0 <0.10.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.27.0/kirocrew-ide-0.27.0.zip",
+              "sha256": "0c2c4472fa332ba73509338ddb71810ff0be85490cd735e6fdebd310c4ba8851",
+              "size": 832095,
+              "name": "kirocrew-ide-0.27.0.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.2"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-11-03T14:10:54Z",
+          "tag": "kirocrew-ide-0.27.0",
+          "kinds": [
+            "app",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
         }
       ],
       "license": "MIT",
@@ -563,7 +717,10 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.0/model-retry-policy-0.2.0.zip",
@@ -594,7 +751,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.1/model-retry-policy-0.2.1.zip",
@@ -646,7 +818,34 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0.dev20261012014346": "tested",
+            "0.10.0.dev20261012201303": "tested",
+            "0.10.0.dev20261014061000": "tested",
+            "0.10.0.dev20261015061203": "tested",
+            "0.10.0rc4": "tested",
+            "0.11.0.dev20261019061302": "tested",
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested",
+            "0.7.0": "tested",
+            "0.7.0rc8": "tested",
+            "0.7.0rc9": "tested",
+            "0.7.1": "tested",
+            "0.7.2": "tested",
+            "0.8.0.dev20260924061032": "tested",
+            "0.8.0.dev20260928053132": "tested",
+            "0.8.0rc1": "tested",
+            "0.8.0rc10": "tested",
+            "0.8.0rc2": "tested",
+            "0.8.0rc3": "tested",
+            "0.8.0rc4": "tested",
+            "0.9.0": "tested",
+            "0.9.0.dev20260929061324": "tested",
+            "0.9.0.dev20260930061058": "tested",
+            "0.9.0.dev20261005061801": "tested",
+            "0.9.0.dev20261007060958": "tested",
+            "0.9.0.dev20261009061050": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.0/os-notify-bridge-1.0.0.zip",
@@ -673,7 +872,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.1/os-notify-bridge-1.0.1.zip",
@@ -722,7 +936,39 @@
             "external"
           ],
           "compat": {
-            "0.6.0": "expected"
+            "0.10.0.dev20261012014346": "tested",
+            "0.10.0.dev20261012201303": "tested",
+            "0.10.0.dev20261014061000": "tested",
+            "0.10.0.dev20261015061203": "tested",
+            "0.10.0rc4": "tested",
+            "0.11.0.dev20261019061302": "tested",
+            "0.11.0.dev20261020164600": "tested",
+            "0.11.0.dev20261022060953": "tested",
+            "0.6.0": "tested",
+            "0.7.0": "tested",
+            "0.7.0rc5": "tested",
+            "0.7.0rc6": "tested",
+            "0.7.0rc7": "tested",
+            "0.7.0rc8": "tested",
+            "0.7.0rc9": "tested",
+            "0.7.1": "tested",
+            "0.7.2": "tested",
+            "0.8.0.dev20260920060902": "tested",
+            "0.8.0.dev20260921061338": "tested",
+            "0.8.0.dev20260922061137": "tested",
+            "0.8.0.dev20260924061032": "tested",
+            "0.8.0.dev20260928053132": "tested",
+            "0.8.0rc1": "tested",
+            "0.8.0rc10": "tested",
+            "0.8.0rc2": "tested",
+            "0.8.0rc3": "tested",
+            "0.8.0rc4": "tested",
+            "0.9.0": "tested",
+            "0.9.0.dev20260929061324": "tested",
+            "0.9.0.dev20260930061058": "tested",
+            "0.9.0.dev20261005061801": "tested",
+            "0.9.0.dev20261007060958": "tested",
+            "0.9.0.dev20261009061050": "tested"
           },
           "files": [
             {
@@ -750,7 +996,22 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.10.0": "tested",
+            "0.10.0rc5": "tested",
+            "0.11.0": "tested",
+            "0.11.0.dev20261025060904": "tested",
+            "0.11.0rc1": "tested",
+            "0.11.0rc2": "tested",
+            "0.11.0rc3": "tested",
+            "0.11.0rc4": "tested",
+            "0.11.0rc5": "tested",
+            "0.11.1": "tested",
+            "0.12.0.dev20261027011344": "tested",
+            "0.12.0.dev20261027141113": "tested",
+            "0.12.0.dev20261029060748": "tested",
+            "0.12.0.dev20261031060601": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.1/settings-demo-1.0.1.zip",
@@ -777,6 +1038,5 @@
         "docs": "https://github.com/floofycrew/FloofyCrew"
       }
     }
-  ],
-  "floofycrew": "1.3.11"
+  ]
 }
