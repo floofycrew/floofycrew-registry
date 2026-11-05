@@ -1,0 +1,13 @@
+{
+  "tag": "agent-backend-doctor-0.2.3",
+  "channel": "stable",
+  "publishedAt": "2026-11-05T07:23:23Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.3/agent-backend-doctor-0.2.3.zip",
+      "sha256": "7492229edd5875670ce3ce4d54d47af6651b8990763881381200ce216c80b925",
+      "size": 66208,
+      "name": "agent-backend-doctor-0.2.3.zip"
+    }
+  ]
+}

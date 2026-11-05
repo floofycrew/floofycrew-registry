@@ -1,0 +1,13 @@
+{
+  "tag": "agent-backend-router-0.3.4",
+  "channel": "stable",
+  "publishedAt": "2026-11-05T07:23:23Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-router-0.3.4/agent-backend-router-0.3.4.zip",
+      "sha256": "1884ba0a1d88d8cd8a90a6723ee594a76147ee987022760519ec9b3a98fdc58c",
+      "size": 85699,
+      "name": "agent-backend-router-0.3.4.zip"
+    }
+  ]
+}
