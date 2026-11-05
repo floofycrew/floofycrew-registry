@@ -1030,6 +1030,401 @@
       "run": "forge://public-insider/0.11.0rc5/rows/public-insider-0.11.0rc5.json"
     },
     {
+      "channel": "insider",
+      "checkedAt": "2026-11-02T09:26:44Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.12.0rc4",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.12.0rc4/rows/public-insider-0.12.0rc4.json"
+    },
+    {
+      "channel": "insider",
+      "checkedAt": "2026-11-02T19:36:30Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.12.0rc5",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.12.0rc5/rows/public-insider-0.12.0rc5.json"
+    },
+    {
+      "channel": "insider",
+      "checkedAt": "2026-11-04T08:34:52Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.12.0rc6",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.12.0rc6/rows/public-insider-0.12.0rc6.json"
+    },
+    {
+      "channel": "insider",
+      "checkedAt": "2026-11-05T03:36:09Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.12.0rc7",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.12.0rc7/rows/public-insider-0.12.0rc7.json"
+    },
+    {
+      "channel": "insider",
+      "checkedAt": "2026-11-05T05:30:10Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.12.0rc8",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.12.0rc8/rows/public-insider-0.12.0rc8.json"
+    },
+    {
       "channel": "nightly",
       "checkedAt": "2026-09-21T07:55:21Z",
       "edition": "external",
@@ -2343,6 +2738,164 @@
       "run": "forge://public-nightly/0.12.0.dev20261031060601/rows/public-nightly-0.12.0.dev20261031060601.json"
     },
     {
+      "channel": "nightly",
+      "checkedAt": "2026-11-03T07:24:15Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.13.0.dev20261103060710",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-nightly/0.13.0.dev20261103060710/rows/public-nightly-0.13.0.dev20261103060710.json"
+    },
+    {
+      "channel": "nightly",
+      "checkedAt": "2026-11-04T07:23:38Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.13.0.dev20261104060801",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-nightly/0.13.0.dev20261104060801/rows/public-nightly-0.13.0.dev20261104060801.json"
+    },
+    {
       "channel": "stable",
       "checkedAt": "2026-09-20T22:09:27Z",
       "edition": "external",
@@ -2828,8 +3381,87 @@
         }
       },
       "run": "forge://public-stable/0.11.1/rows/public-stable-0.11.1.json"
+    },
+    {
+      "channel": "stable",
+      "checkedAt": "2026-11-04T05:19:54Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.9",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.9",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.11.2",
+      "mods": {
+        "agent-backend-doctor@0.2.2": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "agent-backend-router@0.3.3": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.3": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "kiro-spec-plan@0.1.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive', 'inactive', 'inactive', 'active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "mochi-pet-zoom-fix@1.0.1": {
+          "detail": "active after reload (200); parts ['inactive', 'inactive']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "rimuru-branding@2.0.1": {
+          "detail": "active after reload (200); parts ['inactive']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.1": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-stable/0.11.2/rows/public-stable-0.11.2.json"
     }
   ],
-  "generatedAt": "2026-11-02T08:49:41Z",
+  "generatedAt": "2026-11-05T05:53:32Z",
   "source": "forge"
 }
