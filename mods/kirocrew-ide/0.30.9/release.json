@@ -1,0 +1,13 @@
+{
+  "tag": "kirocrew-ide-0.30.9",
+  "channel": "stable",
+  "publishedAt": "2026-11-06T15:22:10Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.30.9/kirocrew-ide-0.30.9.zip",
+      "sha256": "47e40ae6e942a1b3cf46d12bff1c8c7329262d28d237349c7790892925fd2b9c",
+      "size": 896095,
+      "name": "kirocrew-ide-0.30.9.zip"
+    }
+  ]
+}
