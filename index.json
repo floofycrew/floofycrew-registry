@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-03T14:11:06Z",
+  "generatedAt": "2026-11-06T09:54:06Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -70,10 +70,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -167,10 +175,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -321,10 +337,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -443,10 +467,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -685,6 +717,35 @@
             "spa",
             "ui"
           ]
+        },
+        {
+          "version": "0.30.8",
+          "kirocrew": ">=0.7.0 <0.12.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.30.8/kirocrew-ide-0.30.8.zip",
+              "sha256": "abc81084310d27e882c5c264c9b150873c3a2772584d22b409ce7ea9a740aff5",
+              "size": 888878,
+              "name": "kirocrew-ide-0.30.8.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.2"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-11-06T09:53:50Z",
+          "tag": "kirocrew-ide-0.30.8",
+          "kinds": [
+            "app",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
         }
       ],
       "license": "MIT",
@@ -762,10 +823,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -883,10 +952,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
@@ -1007,10 +1084,18 @@
             "0.11.0rc4": "tested",
             "0.11.0rc5": "tested",
             "0.11.1": "tested",
+            "0.11.2": "tested",
             "0.12.0.dev20261027011344": "tested",
             "0.12.0.dev20261027141113": "tested",
             "0.12.0.dev20261029060748": "tested",
-            "0.12.0.dev20261031060601": "tested"
+            "0.12.0.dev20261031060601": "tested",
+            "0.12.0rc4": "tested",
+            "0.12.0rc5": "tested",
+            "0.12.0rc6": "tested",
+            "0.12.0rc7": "tested",
+            "0.12.0rc8": "tested",
+            "0.13.0.dev20261103060710": "tested",
+            "0.13.0.dev20261104060801": "tested"
           },
           "files": [
             {
