@@ -8,7 +8,8 @@
 # (schema, `floofy validate`, files[] hashes, licence, host-name masquerade,
 # release tag, record consistency) and finally checks that index.json was
 # regenerated from the records (`build --check`). Nothing here needs a secret:
-# signing happens on merge (see ci-publish-index.yml).
+# the index is built and signed locally by the maintainer and committed with
+# the record (the optional publish-index workflow is not installed here).
 #
 # The tooling is standard-library Python, so it is used straight from a
 # checkout of the FloofyCrew repository (no pip install). Pin FLOOFYCREW_REF to a
