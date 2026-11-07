@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/floofycrew/FloofyCrew",
+  "tags": [
+    "backend",
+    "claude-code",
+    "codex",
+    "kas",
+    "load-balancing",
+    "model-routing",
+    "routing",
+    "throttling"
+  ],
+  "links": {
+    "source": "https://github.com/floofycrew/FloofyCrew",
+    "docs": "https://github.com/floofycrew/FloofyCrew"
+  },
+  "contact": "Oscar Tseng"
+}
