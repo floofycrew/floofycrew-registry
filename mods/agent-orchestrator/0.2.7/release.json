@@ -1,0 +1,13 @@
+{
+  "tag": "agent-orchestrator-0.2.7",
+  "channel": "stable",
+  "publishedAt": "2026-11-14T15:25:22Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.7/agent-orchestrator-0.2.7.zip",
+      "sha256": "ca55ab0f449d7e0d2a2faae06746a3f15d69234a90002cc1b0381a34354c26c7",
+      "size": 89078,
+      "name": "agent-orchestrator-0.2.7.zip"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "tag": "display-comfort-1.0.3",
+  "channel": "stable",
+  "publishedAt": "2026-11-14T15:25:22Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.3/display-comfort-1.0.3.zip",
+      "sha256": "10abb26680c6598e36d0ce88999b283be4cdaaa07ca3172ea8e177d7543600a5",
+      "size": 13895,
+      "name": "display-comfort-1.0.3.zip"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "tag": "model-retry-policy-0.2.3",
+  "channel": "stable",
+  "publishedAt": "2026-11-14T15:25:22Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.3/model-retry-policy-0.2.3.zip",
+      "sha256": "149be041559b1321073c5595a3d5d196ae56e37b89833036bc783887a83b54a0",
+      "size": 66907,
+      "name": "model-retry-policy-0.2.3.zip"
+    }
+  ]
+}
