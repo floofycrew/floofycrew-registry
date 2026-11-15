@@ -1,0 +1,13 @@
+{
+  "tag": "os-notify-bridge-1.0.4",
+  "channel": "stable",
+  "publishedAt": "2026-11-15T14:41:05Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.4/os-notify-bridge-1.0.4.zip",
+      "sha256": "dac0a3eb5996b36efc245577adfdf9cc83b8da8206dd898065f1d367103861f3",
+      "size": 17090,
+      "name": "os-notify-bridge-1.0.4.zip"
+    }
+  ]
+}

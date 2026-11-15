@@ -1,0 +1,13 @@
+{
+  "tag": "settings-demo-1.0.4",
+  "channel": "stable",
+  "publishedAt": "2026-11-15T14:41:05Z",
+  "files": [
+    {
+      "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.4/settings-demo-1.0.4.zip",
+      "sha256": "1811328639389810115efb3327fc368bb202f080c1c3769356aded78f386ec92",
+      "size": 10361,
+      "name": "settings-demo-1.0.4.zip"
+    }
+  ]
+}
