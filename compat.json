@@ -1806,6 +1806,70 @@
     },
     {
       "channel": "insider",
+      "checkedAt": "2026-11-17T09:48:45Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.15",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.15",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.13.0rc2",
+      "mods": {
+        "agent-backend-doctor@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.8": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.6": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "kirocrew-ide@0.32.4": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'inactive']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "model-retry-policy@0.2.4": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-insider/0.13.0rc2/rows/public-insider-0.13.0rc2.json"
+    },
+    {
+      "channel": "insider",
       "checkedAt": "2026-11-17T09:32:38Z",
       "edition": "external",
       "framework": {
@@ -4602,6 +4666,6 @@
       "run": "forge://public-stable/0.12.2/rows/public-stable-0.12.2.json"
     }
   ],
-  "generatedAt": "2026-11-17T09:34:09Z",
+  "generatedAt": "2026-11-17T09:50:16Z",
   "source": "forge"
 }
