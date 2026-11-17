@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-15T16:10:08Z",
+  "generatedAt": "2026-11-17T09:34:09Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -148,7 +148,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-backend-doctor-0.2.5/agent-backend-doctor-0.2.5.zip",
@@ -319,7 +321,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/agent-orchestrator-0.2.8/agent-orchestrator-0.2.8.zip",
@@ -551,7 +555,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/custom-themes-1.0.6/custom-themes-1.0.6.zip",
@@ -747,7 +753,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/display-comfort-1.0.4/display-comfort-1.0.4.zip",
@@ -1080,7 +1088,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.32.4/kirocrew-ide-0.32.4.zip",
@@ -1264,7 +1274,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/model-retry-policy-0.2.4/model-retry-policy-0.2.4.zip",
@@ -1459,7 +1471,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/os-notify-bridge-1.0.4/os-notify-bridge-1.0.4.zip",
@@ -1657,7 +1671,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.0rc3": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/settings-demo-1.0.4/settings-demo-1.0.4.zip",
@@ -1685,5 +1701,5 @@
       }
     }
   ],
-  "floofycrew": "1.3.14"
+  "floofycrew": "1.3.15"
 }
