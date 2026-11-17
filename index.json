@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-17T15:17:16Z",
+  "generatedAt": "2026-11-17T20:07:05Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -1168,6 +1168,35 @@
           "channel": "stable",
           "publishedAt": "2026-11-17T15:17:15Z",
           "tag": "kirocrew-ide-0.34.1",
+          "kinds": [
+            "app",
+            "python-hook",
+            "spa",
+            "ui"
+          ]
+        },
+        {
+          "version": "0.36.1",
+          "kirocrew": ">=0.7.0",
+          "editions": [
+            "internal",
+            "external"
+          ],
+          "compat": {},
+          "files": [
+            {
+              "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.36.1/kirocrew-ide-0.36.1.zip",
+              "sha256": "8460191a164caae4e86489c44e5d8d0175950368f85fb589123b0e95472b7094",
+              "size": 10050791,
+              "name": "kirocrew-ide-0.36.1.zip"
+            }
+          ],
+          "dependencies": {
+            "floofycrew": "^1.2"
+          },
+          "channel": "stable",
+          "publishedAt": "2026-11-17T20:07:04Z",
+          "tag": "kirocrew-ide-0.36.1",
           "kinds": [
             "app",
             "python-hook",
