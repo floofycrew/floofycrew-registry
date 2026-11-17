@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-17T10:28:26Z",
+  "generatedAt": "2026-11-17T12:09:52Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -1519,5 +1519,6 @@
         "docs": "https://github.com/floofycrew/FloofyCrew"
       }
     }
-  ]
+  ],
+  "floofycrew": "1.3.16"
 }
