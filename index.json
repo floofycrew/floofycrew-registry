@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-17T20:07:05Z",
+  "generatedAt": "2026-11-18T07:41:29Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -150,7 +150,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -324,7 +326,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -559,7 +563,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -758,7 +764,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -1182,7 +1190,10 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.36.1/kirocrew-ide-0.36.1.zip",
@@ -1377,7 +1388,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -1578,7 +1591,9 @@
           ],
           "compat": {
             "0.13.0rc2": "tested",
-            "0.13.0rc3": "tested"
+            "0.13.0rc3": "tested",
+            "0.14.0.dev20261117060648": "tested",
+            "0.14.0.dev20261118060634": "tested"
           },
           "files": [
             {
@@ -1607,5 +1622,5 @@
       }
     }
   ],
-  "floofycrew": "1.3.16"
+  "floofycrew": "1.3.17"
 }
