@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-18T08:06:45Z",
+  "generatedAt": "2026-11-18T10:21:05Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -151,6 +151,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -328,6 +329,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -566,6 +568,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -768,6 +771,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -1195,6 +1199,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -1394,6 +1399,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
@@ -1598,6 +1604,7 @@
           "compat": {
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
+            "0.13.0rc5": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested"
