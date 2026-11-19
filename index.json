@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-19T07:48:07Z",
+  "generatedAt": "2026-11-19T08:09:11Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -149,6 +149,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
@@ -330,6 +331,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
@@ -572,6 +574,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
@@ -778,6 +781,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
@@ -1245,6 +1249,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.14.0.dev20261119060643": "tested"
@@ -1442,6 +1447,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
@@ -1650,6 +1656,7 @@
             "external"
           ],
           "compat": {
+            "0.13.0": "tested",
             "0.13.0rc2": "tested",
             "0.13.0rc3": "tested",
             "0.13.0rc5": "tested",
