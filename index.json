@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-20T10:19:18Z",
+  "generatedAt": "2026-11-21T01:18:31Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -155,6 +155,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -338,6 +339,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -582,6 +584,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -790,6 +793,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -1317,7 +1321,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.13.1rc1": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.38.2/kirocrew-ide-0.38.2.zip",
@@ -1517,6 +1523,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -1727,6 +1734,7 @@
             "0.13.0rc5": "tested",
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
+            "0.13.1rc1": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
