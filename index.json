@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-21T12:07:00Z",
+  "generatedAt": "2026-11-22T01:22:11Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -156,6 +156,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -341,6 +342,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -587,6 +589,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -797,6 +800,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -1327,6 +1331,7 @@
           ],
           "compat": {
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261121092425": "tested"
           },
           "files": [
@@ -1529,6 +1534,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
@@ -1741,6 +1747,7 @@
             "0.13.0rc6": "tested",
             "0.13.0rc7": "tested",
             "0.13.1rc1": "tested",
+            "0.13.1rc2": "tested",
             "0.14.0.dev20261116061021": "tested",
             "0.14.0.dev20261117060648": "tested",
             "0.14.0.dev20261118060634": "tested",
