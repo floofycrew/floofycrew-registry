@@ -2,7 +2,7 @@
   "schema": 1,
   "alg": "ed25519",
   "keyId": "31ddb18e6ffafef2",
-  "signature": "LTJoh7p1NvlP/v4+1KrSqRs+PhcNLNivfPhBzuukTD+gLHfE+o03jm1+Rlt+qTbXCivahl7poHnY58FjXsiaCw==",
-  "signedAt": "2026-11-22T03:08:45Z",
+  "signature": "r3Xi8OaPkQEobdzwgOo2uvqJsLJm8WLu6mGPnKiZtdkm/pNJnVs5vaQ4YJzs7sAKZQkPg7pg8s5KBMomngWvAQ==",
+  "signedAt": "2026-11-23T12:03:56Z",
   "canonical": "json-c14n-1"
 }
