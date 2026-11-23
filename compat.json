@@ -4630,6 +4630,65 @@
       "run": "forge://public-nightly/0.14.0.dev20261121092425/rows/public-nightly-0.14.0.dev20261121092425.json"
     },
     {
+      "channel": "nightly",
+      "checkedAt": "2026-11-23T12:02:43Z",
+      "edition": "external",
+      "framework": {
+        "floofycrew": "1.3.19",
+        "loader": "ok",
+        "pythonAnchors": {
+          "matched": 16,
+          "missed": [],
+          "total": 16
+        },
+        "shimVersion": "1.3.19",
+        "spaFingerprints": {
+          "matched": 20,
+          "missed": [],
+          "total": 20
+        }
+      },
+      "hostVersion": "0.14.0.dev20261123060925",
+      "mods": {
+        "agent-backend-doctor@0.2.5": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "agent-orchestrator@0.2.8": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "custom-themes@1.0.6": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'active', 'inactive']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "display-comfort@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "kirocrew-ide@0.38.2": {
+          "detail": "active after reload (200); parts ['active', 'active', 'active', 'inactive']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "os-notify-bridge@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        },
+        "settings-demo@1.0.4": {
+          "detail": "active after reload (200); parts ['active', 'active']",
+          "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json",
+          "verdict": "tested"
+        }
+      },
+      "run": "forge://public-nightly/0.14.0.dev20261123060925/rows/public-nightly-0.14.0.dev20261123060925.json"
+    },
+    {
       "channel": "stable",
       "checkedAt": "2026-09-20T22:09:27Z",
       "edition": "external",
@@ -5551,6 +5610,6 @@
       "run": "forge://public-stable/0.13.1/rows/public-stable-0.13.1.json"
     }
   ],
-  "generatedAt": "2026-11-22T03:21:12Z",
+  "generatedAt": "2026-11-23T12:03:42Z",
   "source": "forge"
 }
