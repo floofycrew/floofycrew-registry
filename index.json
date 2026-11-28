@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "github:floofycrew/floofycrew-registry",
-  "generatedAt": "2026-11-28T07:05:53Z",
+  "generatedAt": "2026-11-28T12:05:14Z",
   "mods": [
     {
       "id": "agent-backend-doctor",
@@ -172,7 +172,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
@@ -368,7 +369,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
@@ -625,7 +627,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
@@ -846,7 +849,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
@@ -1412,7 +1416,9 @@
             "internal",
             "external"
           ],
-          "compat": {},
+          "compat": {
+            "0.15.0.dev20261128060557": "tested"
+          },
           "files": [
             {
               "url": "https://github.com/floofycrew/FloofyCrew/releases/download/kirocrew-ide-0.38.3/kirocrew-ide-0.38.3.zip",
@@ -1629,7 +1635,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
@@ -1852,7 +1859,8 @@
             "0.15.0.dev20261124222145": "tested",
             "0.15.0.dev20261125060654": "tested",
             "0.15.0.dev20261126060713": "tested",
-            "0.15.0.dev20261127060704": "tested"
+            "0.15.0.dev20261127060704": "tested",
+            "0.15.0.dev20261128060557": "tested"
           },
           "files": [
             {
